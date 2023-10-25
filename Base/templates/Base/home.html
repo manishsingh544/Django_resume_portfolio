@@ -1,0 +1,93 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resume - Manish Singh Rana</title>
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+</head>
+<body>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/myimg.jpg' %}" >
+					<hr>
+					<h4>Hi I'm Manish!</h4>
+					<p>I love working on cloud technologies using Devops practises</p>
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4>My experience as a System Administrator (Cloud)</h4>
+					<hr>
+					<p>Worked with EC2 instances,Setting up Web Server (Apache2) & configure to host website on EC2 VM, S3 bucket Creation, configure storages on S3 buckets, EC2, RDS, creating Security groups, Subnets, Internet gateways, route-tables, auto-scaling, load balancers (ELBs) in defined VPC </p>
+
+					<p>Deployed EC2 Instance, S3 Buckets, VPC, Public/private Subnets, Internet Gateway using Terraform. (Infrastructure as a Code Concept)Using AWS-CLI to connect and configure AWS resources.Containerizing applications using docker file.</p>
+
+					<p>Creating docker images & pushing in AWS ECR. Deploying Kubernetes Cluster in AWS EKS. </p>
+
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>Educational Qualifications</h5>
+					<hr>
+					<p>Bachelor of Engineering in Computer Science & Engineering from Chitkara University with 8.41 aggregate.</p>
+					</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>What I Know</h5>
+					<hr>
+					<p>Analysing log files for various issues with server performance issues and providing them RCA (root cause analysis) to help them understand the issue they faced more efficiently.
+                         Demotion & promotion of Domain controller.
+                         Handling file replication issues between DCs.
+                         Managing & troubleshooting FSMO roles and group policy issues.
+                    </p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>Technical skills</h5>
+					<hr>
+				    <p>Network Device & Servers Monitoring
+                         Backup & Recovery
+                         Active Directory: User management, Demotion & promotion of DCs, troubleshooting health issues by analysing DCdiag Reports
+                         VMware/Hyper-V Virtualization
+                         A good hands-on Linux fundamentals & commands.
+                         Python Scripting (Intermediate) </p>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>Certifications</h5>
+				<hr>
+				<p> Microsoft certified: Security, Compliance & Identity Fundamentals (SC-900)
+                     Microsoft Certified: Azure Fundamentals (AZ-900)
+                     Programming for everybody (Getting started with Python- Coursera)
+                     Datto DCDS
+                     Datto Certified practitioner in Networking
+                     Window Server 2019 Administration Fundamentals - Udemy</p>
+
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+
+
+</body>
+</html>
